@@ -22,7 +22,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0"
+            "Test::More" : "0",
+            "YAML" : "0"
          }
       },
       "configure" : {
@@ -38,5 +39,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "v1.0.0"
+   "version" : "v1.0.1"
 }
