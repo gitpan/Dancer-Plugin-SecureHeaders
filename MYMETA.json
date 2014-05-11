@@ -3,7 +3,7 @@
    "author" : [
       "Ewen, Colin (CASAO) <colin@draecas.com>"
    ],
-   "dynamic_config" : 1,
+   "dynamic_config" : 0,
    "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "artistic_2"

@@ -4,9 +4,7 @@ Dancer::Plugin::SecureHeaders - Automate HTTP Security headers.
 
 # VERSION
 
-Version 0.1.0
-
-our $VERSION = '0.1.0';
+Version 1.0.2
 
 # DESCRIPTION
 
@@ -22,11 +20,11 @@ Will not override any headers set manually.
 
 ## Frame-Options
 
-Sets the __X-Frame-Options__ header. Defaults to __"DENY"__.
+Sets the **X-Frame-Options** header. Defaults to **"DENY"**.
 
 ## Content-Security-Policy
 
-Sets the __X-Content-Security-Policy__ header. Defaults to __"default-src 'self'"__. 
+Sets the **X-Content-Security-Policy** header. Defaults to **"default-src 'self'"**. 
 
 Specification for this header is available at [https://dvcs.w3.org/hg/content-security-policy/raw-file/bcf1c45f312f/csp-unofficial-draft-20110303.html](https://dvcs.w3.org/hg/content-security-policy/raw-file/bcf1c45f312f/csp-unofficial-draft-20110303.html).
 
@@ -36,21 +34,21 @@ Determines whether to supplier IE-specific headers.
 
 ## IE-Content-Type-Options
 
-Sets the __X-Content-Type-Options__ header for IE. Defaults to __"nosniff"__.
+Sets the **X-Content-Type-Options** header for IE. Defaults to **"nosniff"**.
 
 ## IE-Download-Options
 
-Sets the __X-Download-Options__ header for IE. Defaults to __'noopen'__.
+Sets the **X-Download-Options** header for IE. Defaults to **'noopen'**.
 
 ## IE-XSS-Protection
 
-Sets the __X-XSS-Protection__ header. Defaults to __"1; 'mode=block'"__.
+Sets the **X-XSS-Protection** header. Defaults to **"1; 'mode=block'"**.
 
 # Example Settings (default)
 
 # AUTHOR
 
-Ewen, Colin, `<draecas at gmail.com>`
+Ewen, Colin, `<colin at draecas.com>`
 
 # BUGS
 

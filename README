@@ -2,9 +2,7 @@ NAME
     Dancer::Plugin::SecureHeaders - Automate HTTP Security headers.
 
 VERSION
-    Version 0.1.0
-
-    our $VERSION = '0.1.0';
+    Version 1.0.2
 
 DESCRIPTION
     Automatically add HTTP Security Headers to requests.
@@ -41,7 +39,7 @@ SETTINGS
 
 Example Settings (default)
 AUTHOR
-    Ewen, Colin, `<draecas at gmail.com>'
+    Ewen, Colin, `<colin at draecas.com>'
 
 BUGS
     Please report any bugs or feature requests to
