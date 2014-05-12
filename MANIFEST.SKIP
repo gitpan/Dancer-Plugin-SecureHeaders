@@ -3,6 +3,5 @@
 .gitignore
 .travis.yml
 blib/
-Makefile
 .bak
 pm_to_blib

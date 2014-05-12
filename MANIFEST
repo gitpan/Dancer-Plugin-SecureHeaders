@@ -2,10 +2,9 @@ Changes
 ignore.txt
 lib/Dancer/Plugin/SecureHeaders.pm
 LICENSE
+Makefile.PL
 MANIFEST
 MANIFEST.SKIP
-MYMETA.json
-MYMETA.yml
 README
 README.md
 t/00-load.t
